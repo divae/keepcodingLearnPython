@@ -10,9 +10,6 @@ def format_to_integer(value):
     return number
 
 def is_number(value):
-    return False if format_to_integer(value) != None else True
+    return format_to_integer(value) != None
 
-def question(STRquestion):
-    number = format_to_integer(input(STRquestion))
-    return number if number != None else question(STRquestion)
 
