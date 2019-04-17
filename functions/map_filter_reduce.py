@@ -1,4 +1,5 @@
 from functools import reduce
+
 list_values = [1,2,-1,15,9]
 
 def double(x):
